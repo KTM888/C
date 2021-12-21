@@ -1,10 +1,10 @@
 #include <stdbool.h>
 #include <stdio.h>
-#include "parse&exec.h"
+#include "parse_exec.h"
 
-static char input[101] = "look around";
+static char input[100] = "look around";
 static char welcome_msg[] = "Welcome to the Escape Game!";
-static char goodbye_msg[] = "Goodbye!";
+static char goodbye_msg[] = "\nGoodbye!";
 
 static bool get_input(void)
 {

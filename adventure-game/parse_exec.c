@@ -12,7 +12,7 @@ bool parse_execute(char *input)
         {
             return false;
         }
-        else if (strcmp(verb, "examine") == 0)
+        else if (strcmp(verb, "look") == 0)
         {
             printf("Its very dark\n");
         }
