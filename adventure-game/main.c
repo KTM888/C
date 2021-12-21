@@ -4,6 +4,7 @@
 
 static char input[100] = "look around";
 static char welcome_msg[] = "Welcome to the Escape Game!";
+
 static char goodbye_msg[] = "\nGoodbye!";
 
 static bool get_input(void)
